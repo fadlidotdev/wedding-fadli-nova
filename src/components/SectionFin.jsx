@@ -23,7 +23,7 @@ export default function SectionFin() {
           data-aos-offset="0"
         >
           <span className="block text-[#d9b788] text-5xl font-bold font-writing">
-            Nova &amp; Fadli
+            Fadli &amp; Nova
           </span>
         </h1>
         <p
@@ -34,7 +34,7 @@ export default function SectionFin() {
           data-aos-delay="500"
           data-aos-offset="0"
         >
-          19 November 2023
+          26 November 2023
         </p>
 
         <p data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="750">

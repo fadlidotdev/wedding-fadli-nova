@@ -92,7 +92,7 @@ export default function LaunchScreen({ name, onOpenInvitation }) {
             data-aos="fade-up"
             data-aos-duration="2000"
           >
-            Nova &amp; Fadli
+            Fadli &amp; Nova
           </h1>
           <p
             className="text-xl"

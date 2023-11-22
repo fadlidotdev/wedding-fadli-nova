@@ -18,7 +18,7 @@ export default function SectionItsTheDay() {
         className="mb-8 space-y-1 text-center"
       >
         <h3 className="text-3xl font-semibold">Ahad</h3>
-        <p className="text-xl opacity-80">19 November 2023</p>
+        <p className="text-xl opacity-80">26 November 2023</p>
       </div>
 
       <div
@@ -29,29 +29,15 @@ export default function SectionItsTheDay() {
         data-aos-duration="2000"
       >
         <div className="z-20 bg-[#822223] relative text-light text-center shadow-xl px-4 py-32 flex flex-col gap-24 rounded-full">
-          <div data-aos-once="true" data-aos="fade-down" data-aos-duration="1000">
-            <img src="/ring.png" width={80} className="block mx-auto mb-4" />
-            <div className="space-y-1">
-              <h3 className="text-4xl">Akad Nikah</h3>
-              <div className="opacity-75">
-                <p>18 November 2023 &#183; 08.00 &ndash; Selesai</p>
-                <p>
-                  Masjid Nurul Ikhlas
-                  <br />
-                  Jl. Padat Karya RT.01 RW.04 Kel. Sumur Dewa, Kota Bengkulu
-                </p>
-              </div>
-            </div>
-          </div>
-
           <div data-aos-once="true" data-aos="zoom-down" data-aos-duration="1000">
             <img src="/resepsi.png" width={80} className="block mx-auto mb-4" />
-            <div className="space-y-1">
+            <div className="space-y-8">
               <h3 className="text-4xl">Resepsi</h3>
               <div className="opacity-75">
-                <p>19 November 2023 &#183; 09.30 &ndash; Selesai</p>
+                <p>26 November 2023 &#183; 10:00 &ndash; Selesai</p>
                 <p>
-                  Gedung Balai Prajurit <br /> Jl. Pembangunan No. 01, Padang Harapan, Kota Bengkulu
+                  Islamic Center Bengkulu (Disebelah Masjid Baitul Izzah) <br /> Jl. Pembangunan No.
+                  01, Padang Harapan, Kota Bengkulu
                 </p>
               </div>
             </div>

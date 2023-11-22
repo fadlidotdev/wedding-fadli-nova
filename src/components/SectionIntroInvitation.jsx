@@ -9,7 +9,7 @@ export default function SectionIntroInvitation() {
       >
         <span className="text-xl">Wedding Invitation</span> <br />
         <span className="block mt-1 text-[#d9b788] text-5xl font-bold font-writing">
-          Nova &amp; Fadli
+          Fadli &amp; Nova
         </span>
       </h1>
     </section>

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 
 export default function SectionSaveTheDate({ name }) {
-  const targetDate = new Date("2023-11-19T09:30:00").getTime();
+  const targetDate = new Date("2023-11-26T10:00:00").getTime();
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
 
-  const invitationLink = `https://calendar.google.com/calendar/u/0/r/eventedit?text=Nova+%26+Fadli+Wedding&dates=20231119T093000/20231119T130000&location=Balai+Prajurit+Garuda+Emas,+57HP%2BM5Q,+Padang+Harapan,+Gading+Cempaka,+Bengkulu+City,+Bengkulu+38225,+Indonesia&details=Assalammu'alaikum,+Kami+mengundang+${name}+untuk+menghadiri+pesta+pernikahan+kami ❤️+%7C+Wedding+Nova+dan+Fadli.%0ATerima+Kasih 🙏🏻.`;
+  const invitationLink = `https://calendar.google.com/calendar/u/0/r/eventedit?text=Fadli+%26+Nova+Wedding&dates=20231126T100000/20231126T130000&location=Islamic+Center+Bengkulu,+57HP%2BHWQ,+Padang+Harapan,+Gading+Cempaka,+Bengkulu+City,+Bengkulu+38225,+Indonesia&details=Assalammu'alaikum,+Kami+mengundang+${name}+untuk+menghadiri+pesta+pernikahan+kami ❤️+%7C+Wedding+Fadli+dan+Nova.%0ATerima+Kasih 🙏🏻.`;
 
   function calculateTimeRemaining() {
     const currentTime = new Date().getTime();
@@ -68,7 +68,7 @@ export default function SectionSaveTheDate({ name }) {
         >
           <div className="space-y-1">
             <h3 className="text-3xl tracking-normal">Save The Date</h3>
-            <p className="tracking-wide opacity-60">19 November 2023</p>
+            <p className="tracking-wide opacity-60">26 November 2023</p>
           </div>
 
           <div className="grid grid-cols-4">

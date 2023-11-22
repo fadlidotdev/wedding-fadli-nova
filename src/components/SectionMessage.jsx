@@ -210,7 +210,7 @@ export default function SectionMessage({ name }) {
                           alt=""
                           className="object-cover w-5 h-5 rounded-full"
                         />
-                        <h3>Nova &amp; Fadli</h3>
+                        <h3>Fadli &amp; Nova</h3>
                       </div>
                       <p>{message.reply}</p>
                     </div>
